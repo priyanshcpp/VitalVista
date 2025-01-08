@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VitalVista</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: #444;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      background-color: #fff;
+      border-bottom: 1px solid #eaeaea;
+    }
+
+    .logo-section {
+      display: flex;
+      align-items: center; /* Ensures vertical alignment */
+      gap: 10px; /* Space between the main logo and text logo */
+    }
+
+    .logo {
+      max-width: 60px; /* Adjust the size of the main logo */
+      height: auto;
+    }
+
+    .text-logo {
+      max-height: 40px; /* Adjust the height of the text logo */
+      width: auto;
+    }
+
+    .nav {
+      display: flex;
+    }
+
+    .nav a {
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #000; /* Black text */
+      transition: color 0.3s, text-decoration 0.3s;
+    }
+
+    .nav a:hover {
+      text-decoration: underline; /* Underline on hover */
+      color: #555; /* Slightly lighter black on hover */
+    }
+
+    .main {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; /* Separates the text and image */
+      padding: 40px 20px;
+      text-align: left;
+      max-width: 1200px;
+      margin: 0 auto; /* Centers the main content */
+    }
+
+    .content {
+      flex: 1; /* Takes available space */
+      margin-right: 20px; /* Adds spacing between text and image */
+    }
+
+    .content h2 {
+      font-size: 2rem;
+      color: #27ae60;
+    }
+
+    .content p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin: 20px 0;
+      max-width: 600px;
+    }
+
+    .buttons {
+      margin: 20px 0;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 1rem;
+      border-radius: 5px;
+      color: #fff;
+      background-color: #27ae60;
+      border: none;
+    }
+
+    .buttons a.secondary {
+      background-color: #f39c12;
+    }
+
+    .image {
+      flex: 1; /* Takes available space */
+      display: flex;
+      justify-content: center;
+    }
+
+    .image img {
+      max-width: 100%;
+      max-height: 400px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header with Navigation -->
+  <div class="header">
+    <div class="logo-section">
+      <img src="nlogo1.png" alt="VitalVista Logo" class="logo">
+      <h1>VitalVista</h1>
+    </div>
+    <div class="nav">
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+    <!-- Left Content Section -->
+    <div class="content">
+      <h2>Welcome to VitalVista!</h2>
+      <p>Discover a holistic approach to health management with our app. VitalVista empowers you to take control of your wellness journey.</p>
+      
+      <div class="buttons">
+        <a href="#learn-more">Learn More</a>
+        <a href="#get-started" class="secondary">Get Started</a>
+      </div>
+    </div>
+
+    <!-- Right Image Section -->
+    <div class="image">
+      <img src="xyz.png" alt="A vibrant illustration of wellness and vitality">
+    </div>
+  </div>
+
+</body>
+</html>
